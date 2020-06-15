@@ -221,7 +221,7 @@ footer {
 
 @media screen and (max-width: 426px) {
   .header-content {
-    padding-top: 28vh;
+    padding-top: 20vh;
     line-height: 48px;
   }
 
@@ -242,7 +242,7 @@ footer {
 
   .intro {
     padding-top: 15vh;
-    padding-bottom: 20vh;
+    padding-bottom: 30vh;
   }
 
   .intro-text p {
@@ -256,6 +256,11 @@ footer {
 
   .contact {
     padding: 12vh 0;
+  }
+
+  .fotter {
+    padding-top: 6vh;
+    padding-bottom: 18px;
   }
 }
 
@@ -272,10 +277,5 @@ footer {
 
   .header-content h2 {
     font-size: 18px;
-  }
-
-  .intro {
-    padding-top: 15vh;
-    padding-bottom: 30vh;
   }
 }
