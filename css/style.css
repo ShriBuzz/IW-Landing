@@ -221,8 +221,12 @@ footer {
 
 @media screen and (max-width: 426px) {
   .header-content {
-    padding-top: 20vh;
-    line-height: 48px;
+    padding-top: 28vh;
+    line-height: normal;
+  }
+
+  .header-content h1 {
+    margin-bottom: 18px;
   }
 
   .header-content h1,
@@ -231,18 +235,28 @@ footer {
     font-size: 30px;
   }
 
+  .header-content h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
   .header-content h2 span {
-    line-height: 20px;
+    line-height: 10px;
   }
 
   .btn {
     display: inline-block;
     margin: 15px auto;
+    padding: 15px 35px;
   }
 
   .intro {
     padding-top: 15vh;
     padding-bottom: 30vh;
+  }
+
+  .intro-content {
+    height: auto;
   }
 
   .intro-text p {
